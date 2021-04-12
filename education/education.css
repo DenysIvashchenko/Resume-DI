@@ -50,7 +50,18 @@ header h1 {
 }
 
 .certificate img:hover {
-  box-shadow: 1px 1px 10px rgb(5, 5, 5);  
+  box-shadow: 1px 1px 10px rgb(197, 198, 255);  
+}
+
+.big-img {
+  max-width: 600px;
+  width: 100%;
+  
+}
+
+.big-img img {
+  width: 600px;
+  box-shadow: 1px 1px 10px rgb(197, 198, 255);
 }
 
 .toggle
@@ -79,11 +90,11 @@ header h1 {
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
+  padding: 150px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../video-images/education.png);
+  background-image: url(../video-images/educ.png);
   transition: 0.5s;
   z-index: 2;
 }
