@@ -171,8 +171,11 @@ header .logo
 }
 
 
-@media (max-width: 800px)
+@media (max-width: 600px)
 {
+  .text {
+    top: 20px;
+  }
     video{
         display: none;
     }

@@ -140,6 +140,9 @@ header h1 {
   .big-img {
     display: none;
   }
+  .text {
+    top: 20px;
+  }
   .line {
     flex-wrap: wrap;
   }
