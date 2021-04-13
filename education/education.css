@@ -137,6 +137,9 @@ header h1 {
 
 @media (max-width: 991px)
 {
+  .big-img {
+    display: none;
+  }
   .showcase,
   .showcase header
   {
