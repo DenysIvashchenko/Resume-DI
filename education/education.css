@@ -135,10 +135,13 @@ header h1 {
 }
 
 
-@media (max-width: 991px)
+@media (max-width: 600px)
 {
   .big-img {
     display: none;
+  }
+  .line {
+    flex-wrap: wrap;
   }
   .showcase,
   .showcase header
